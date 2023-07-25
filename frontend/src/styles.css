@@ -1,0 +1,187 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c508b;
+  }
+
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Navigation styles */
+  nav {
+    background-color: #e98989;
+    padding: 10px;
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  nav li.active {
+    background-color: #fff;
+  }
+  
+  nav li.active a {
+    color: #333;
+  }
+  
+  /* Main styles */
+  main {
+    padding: 20px;
+  }
+  
+  /* Dashboard overview styles */
+  /* Styling for the Overview section */
+.overview {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the Overview heading */
+  .overview h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the individual data points */
+  .overview p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the data points with spans */
+  .overview p span {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Styling for the project progress bar container */
+  .project-progress {
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  
+  /* Styling for the project progress bar */
+  .progress-bar {
+    background-color: #4CAF50;
+    height: 100%;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  /* Styling for the project progress text */
+  .progress {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Styling for the project progress percentage */
+  .progress span {
+    color: #4CAF50;
+  }
+  
+  /* Optional: Add some additional spacing to separate multiple Dashboard components */
+  .overview + .overview {
+    margin-top: 20px;
+  }
+  
+
+  /* Form styles */
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 60px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(175, 106, 106, 0.1);
+  }
+  
+  .form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .form label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  textarea,
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  /* Footer styles */
+  footer {
+   
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #e98989;
+    padding: 10px;
+    text-align: center;
+  }
+  
